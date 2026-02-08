@@ -3,21 +3,24 @@
   "title": "Deadlands Classic",
   "description": "Deadlands Classic system for Foundry VTT (v13).",
   "version": "0.0.1",
+
   "compatibility": {
     "minimum": "13",
     "verified": "13"
   },
+
   "authors": [
-    {
-      "name": "Shaladar79"
-    }
+    { "name": "Shaladar79" }
   ],
+
   "esmodules": [
     "scripts/init.mjs"
   ],
+
   "styles": [
     "styles/system.css"
   ],
+
   "languages": [
     {
       "lang": "en",
@@ -25,8 +28,9 @@
       "path": "lang/en.json"
     }
   ],
-  "socket": false,
+
   "url": "https://github.com/Shaladar79/deadlands-classic",
-  "manifest": "",
-  "download": ""
+
+  "manifest": "https://github.com/Shaladar79/deadlands-classic/releases/latest/download/system.json",
+  "download": "https://github.com/Shaladar79/deadlands-classic/releases/latest/download/deadlands-classic.zip"
 }
