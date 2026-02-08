@@ -1,0 +1,22 @@
+<section class="dlc-sheet">
+  <header class="dlc-header">
+    <div class="dlc-title">
+      <input class="dlc-name" type="text" name="name" value="{{item.name}}" placeholder="Item Name" />
+      <div class="dlc-sub">
+        <span class="dlc-type">Type: {{item.type}}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="dlc-card">
+    <h3>Notes</h3>
+    <div class="dlc-field">
+      <label>Description</label>
+      <textarea name="system.description" rows="6">{{system.description}}</textarea>
+    </div>
+    <div class="dlc-field">
+      <label>GM Notes</label>
+      <textarea name="system.notes" rows="6">{{system.notes}}</textarea>
+    </div>
+  </div>
+</section>
