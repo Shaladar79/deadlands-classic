@@ -1,0 +1,30 @@
+{
+  "Actor": {
+    "types": ["pc", "npc"],
+    "template": {
+      "name": "",
+      "type": "",
+      "system": {
+        "details": {
+          "concept": "",
+          "notes": ""
+        },
+        "resources": {
+          "wounds": { "value": 0, "max": 0 },
+          "wind": { "value": 0, "max": 0 }
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": ["gear", "edge", "hindrance", "weapon", "aptitude", "power"],
+    "template": {
+      "name": "",
+      "type": "",
+      "system": {
+        "description": "",
+        "notes": ""
+      }
+    }
+  }
+}
