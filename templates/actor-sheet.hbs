@@ -1,0 +1,51 @@
+<section class="dlc-sheet">
+  <header class="dlc-header">
+    <div class="dlc-title">
+      <input class="dlc-name" type="text" name="name" value="{{actor.name}}" placeholder="Name" />
+      <div class="dlc-sub">
+        <span class="dlc-type">Type: {{actor.type}}</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="dlc-grid">
+    <div class="dlc-card">
+      <h3>Details</h3>
+      <div class="dlc-field">
+        <label>Concept</label>
+        <input type="text" name="system.details.concept" value="{{system.details.concept}}" />
+      </div>
+      <div class="dlc-field">
+        <label>Notes</label>
+        <textarea name="system.details.notes" rows="6">{{system.details.notes}}</textarea>
+      </div>
+    </div>
+
+    <div class="dlc-card">
+      <h3>Resources</h3>
+      <div class="dlc-row">
+        <div class="dlc-field">
+          <label>Wounds</label>
+          <div class="dlc-inline">
+            <input type="number" name="system.resources.wounds.value" value="{{system.resources.wounds.value}}" />
+            <span>/</span>
+            <input type="number" name="system.resources.wounds.max" value="{{system.resources.wounds.max}}" />
+          </div>
+        </div>
+
+        <div class="dlc-field">
+          <label>Wind</label>
+          <div class="dlc-inline">
+            <input type="number" name="system.resources.wind.value" value="{{system.resources.wind.value}}" />
+            <span>/</span>
+            <input type="number" name="system.resources.wind.max" value="{{system.resources.wind.max}}" />
+          </div>
+        </div>
+      </div>
+
+      <p class="dlc-muted">
+        Scaffold only. Traits/Aptitudes/Combat/Fate Chips come next.
+      </p>
+    </div>
+  </div>
+</section>
